@@ -1,45 +1,21 @@
-# node-express-vercel-ts
+# node-express-vercel-js
 
 ## Project setup
 
 ```
-npm init -y
+npm init --yes
 ```
 
 ```
-npm install -g vercel
+npm i express
+```
+
+### Start
+
+```
+npm start = node
 ```
 
 ```
-vercel login
-```
-
-```
-npm install typescript @types/express vercel
-```
-
-```
-npm install express
-```
-
-```
-Edit file package.json
-  ...
-  "scripts": {
-    "start": "vercel dev",
-    "deploy" : "vercel deploy --prod"
-  },
-  ...
-```
-
-### Deploy your application to Vercel.com
-
-```
-npm run deploy
-```
-
-### Running vercel develop in local.
-
-```
-npm run start
+npm run dev = nodemon
 ```
